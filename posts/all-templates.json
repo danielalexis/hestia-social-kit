@@ -1,0 +1,142 @@
+[
+  {
+    "template": "statement",
+    "lang": "en",
+    "name": "statement-en"
+  },
+  {
+    "template": "statement",
+    "lang": "pt",
+    "name": "statement-pt"
+  },
+  {
+    "template": "stat-hero",
+    "lang": "en",
+    "name": "stat-hero-en"
+  },
+  {
+    "template": "stat-hero",
+    "lang": "pt",
+    "name": "stat-hero-pt"
+  },
+  {
+    "template": "quote",
+    "lang": "en",
+    "name": "quote-en"
+  },
+  {
+    "template": "quote",
+    "lang": "pt",
+    "name": "quote-pt"
+  },
+  {
+    "template": "dpp-pillar",
+    "lang": "en",
+    "name": "dpp-pillar-en"
+  },
+  {
+    "template": "dpp-pillar",
+    "lang": "pt",
+    "name": "dpp-pillar-pt"
+  },
+  {
+    "template": "link-card",
+    "lang": "en",
+    "name": "link-card-en"
+  },
+  {
+    "template": "link-card",
+    "lang": "pt",
+    "name": "link-card-pt"
+  },
+  {
+    "template": "event-promo",
+    "lang": "en",
+    "name": "event-promo-en"
+  },
+  {
+    "template": "event-promo",
+    "lang": "pt",
+    "name": "event-promo-pt"
+  },
+  {
+    "template": "three-steps",
+    "lang": "en",
+    "name": "three-steps-en"
+  },
+  {
+    "template": "three-steps",
+    "lang": "pt",
+    "name": "three-steps-pt"
+  },
+  {
+    "template": "modules",
+    "lang": "en",
+    "name": "modules-en"
+  },
+  {
+    "template": "modules",
+    "lang": "pt",
+    "name": "modules-pt"
+  },
+  {
+    "template": "cta-story",
+    "lang": "en",
+    "name": "cta-story-en"
+  },
+  {
+    "template": "cta-story",
+    "lang": "pt",
+    "name": "cta-story-pt"
+  },
+  {
+    "template": "proof-story",
+    "lang": "en",
+    "name": "proof-story-en"
+  },
+  {
+    "template": "proof-story",
+    "lang": "pt",
+    "name": "proof-story-pt"
+  },
+  {
+    "template": "comparison-table",
+    "lang": "en",
+    "name": "comparison-table-en"
+  },
+  {
+    "template": "comparison-table",
+    "lang": "pt",
+    "name": "comparison-table-pt"
+  },
+  {
+    "template": "stat-bars",
+    "lang": "en",
+    "name": "stat-bars-en"
+  },
+  {
+    "template": "stat-bars",
+    "lang": "pt",
+    "name": "stat-bars-pt"
+  },
+  {
+    "template": "screenshot-feature",
+    "lang": "en",
+    "name": "screenshot-feature-en"
+  },
+  {
+    "template": "screenshot-feature",
+    "lang": "pt",
+    "name": "screenshot-feature-pt"
+  },
+  {
+    "template": "roadmap",
+    "lang": "en",
+    "name": "roadmap-en"
+  },
+  {
+    "template": "roadmap",
+    "lang": "pt",
+    "name": "roadmap-pt"
+  }
+]

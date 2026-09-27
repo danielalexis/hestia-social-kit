@@ -1,0 +1,32 @@
+[
+  {
+    "template": "statement",
+    "lang": "en",
+    "name": "launch-announcement-en",
+    "data": {
+      "kicker": "New release",
+      "headline": "Automated QC is here.",
+      "subhead": "Catch defects at the loom, not at the customer. Live from today across every Hestia deployment."
+    }
+  },
+  {
+    "template": "event-promo",
+    "lang": "pt",
+    "name": "webinar-dezembro-pt",
+    "data": {
+      "month": "Dez",
+      "day": "03",
+      "time": "11:00 WET",
+      "eyebrow": "Webinar",
+      "headline": "Preparar a sua fábrica para o DPP em 2027",
+      "body": "45 minutos com a equipa de produto: o que muda, o que já está pronto, e como começar.",
+      "cta": "Inscrever",
+      "meta": "Online · PT"
+    }
+  },
+  {
+    "template": "proof-story",
+    "lang": "en",
+    "name": "q3-proof-story-en"
+  }
+]

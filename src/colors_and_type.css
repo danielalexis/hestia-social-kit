@@ -1,0 +1,30 @@
+/* Hestia design tokens, trimmed to what the social kit templates use.
+   Source: Hestia Design System (Personal) / colors_and_type.css */
+
+@font-face {
+  font-family: "Geist";
+  src: url("../fonts/Geist-VariableFont_wght.ttf") format("truetype-variations"),
+       url("../fonts/Geist-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&display=swap");
+
+:root {
+  --hestia-blue: #003DA5;
+  --hestia-blue-deep: #060E24;
+
+  --background: #FBFAF7;
+  --foreground: #0A0F1C;
+  --border: #E4E1DA;
+}
+
+body {
+  margin: 0;
+  background: #E9E5DD;
+  font-family: "Geist", system-ui, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+a { color: #003DA5; text-decoration: none; }
+a:hover { color: #002B75; }

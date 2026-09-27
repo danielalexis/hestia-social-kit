@@ -1,0 +1,20 @@
+{
+  "name": "hestia-social-kit",
+  "version": "1.0.0",
+  "description": "Programmatic renderer for the Hestia Social Kit templates (LinkedIn/Instagram post graphics), ported from the Claude Design canvas.",
+  "private": true,
+  "main": "src/createPost.js",
+  "bin": {
+    "hestia-social-kit": "./cli.js"
+  },
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "list": "node cli.js --list",
+    "example": "node cli.js --file posts/example.json",
+    "web": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "playwright": "^1.47.0"
+  }
+}

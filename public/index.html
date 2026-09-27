@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hestia Social Kit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Hestia Social Kit</div>
+    <div class="topbar-controls">
+      <label class="field-inline">
+        Template
+        <select id="template-select"></select>
+      </label>
+      <div class="lang-toggle" id="lang-toggle">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="pt">PT</button>
+      </div>
+      <button id="reset-btn" class="btn btn-ghost">Reset</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div id="form-root"></div>
+    </aside>
+
+    <main class="preview-pane">
+      <div class="preview-meta">
+        <span id="dims-label"></span>
+      </div>
+      <div class="preview-frame-wrap" id="frame-wrap">
+        <iframe id="preview" title="Post preview"></iframe>
+      </div>
+    </main>
+  </div>
+
+  <footer class="export-bar">
+    <input id="export-name" type="text" placeholder="File name (optional)">
+    <label class="field-inline field-inline-dark">
+      PNG resolution
+      <select id="export-scale">
+        <option value="1">1x (true size)</option>
+        <option value="2" selected>2x (sharper)</option>
+        <option value="3">3x</option>
+      </select>
+    </label>
+    <button id="export-html-btn" class="btn btn-ghost">Export HTML</button>
+    <button id="export-png-btn" class="btn btn-primary">Export PNG</button>
+    <span id="export-status"></span>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
